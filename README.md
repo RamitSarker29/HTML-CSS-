@@ -1,35 +1,55 @@
-# Login Page
+# HTML & CSS Practice
 
-A simple and responsive login page built using HTML and CSS.
+Welcome to my **HTML & CSS Practice** repository.
 
-## Features
+This repository documents my journey of learning **HTML5** and **CSS3** through hands-on projects and exercises. As I continue learning frontend development, I'll keep adding new projects, experimenting with different layouts, and improving my understanding of web design.
 
-- Clean and modern UI
-- Centered login card using Flexbox
-- Email and password input fields
-- Login button with hover effect
-- Responsive layout
+## 📚 What You'll Find
 
-## Technologies Used
+This repository contains projects and practice exercises covering topics such as:
+
+- HTML fundamentals
+- Semantic HTML
+- Forms and input elements
+- Navigation bars
+- Buttons and cards
+- CSS styling
+- Flexbox
+- CSS animations and transitions
+- Responsive design
+- Other frontend practice projects
+
+## 🛠️ Technologies
 
 - HTML5
 - CSS3
 
-## Project Structure
+## 🎯 Purpose
 
-```
-Login_Page/
-│── index.html
-```
+The goal of this repository is to:
 
-## Preview
+- Practice frontend development concepts
+- Build small projects to strengthen my skills
+- Track my learning progress
+- Create a solid foundation before learning JavaScript and modern frameworks
 
-The page includes:
-- Email input
-- Password input
-- Login button
-- Hover effects on inputs and button
+## 📂 Repository Structure
 
-## Author
+Each project is organized into its own folder and may include its own `README.md` explaining the project in detail.
+
+## 🚀 Future Goals
+
+As I continue learning, I plan to explore:
+
+- CSS Grid
+- Responsive Web Design
+- JavaScript
+- DOM Manipulation
+- APIs
+- React
+
+## 👨‍💻 Author
 
 **Ramit Sarker**
+
+Learning one project at a time and continuously improving.
