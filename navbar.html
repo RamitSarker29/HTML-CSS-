@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+</head>
+<style>
+    body {
+        background-color: black;
+        margin: 0px;
+        padding: 20px;
+
+
+    }
+    h1 {
+        color: aliceblue;
+        margin: 10px;
+        padding: 0px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .navbar {
+        background-color: aliceblue;
+        padding: 15px;
+        margin: 0px;
+
+    }
+    .navbar ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .navbar li {
+        display: inline;
+    }
+    .navbar a{
+        color: rgb(196, 36, 36);
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 8px;
+        position: relative;
+
+    }
+    .navbar a::after{
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        background-color: rgb(196, 85, 85);
+        transform: scaleX(0);
+        transition: transform 0.3s ease-in-out;
+    }
+    .navbar a:hover::after {
+        transform: scaleX(1);
+    }
+    .navbar .login-button {
+        
+        background-color: rgb(213, 123, 13);
+        color: rgb(0, 0, 0);
+        border-radius: 8px;
+        padding: 2px 5px;
+        cursor: pointer;
+        
+        
+    }
+    
+</style>
+<body>
+    <h1>Navbar Practice</h1>
+    <header>
+        <nav class="navbar">
+            <ul>
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li>
+                    <button class="login-button">Login</button>
+                </li>
+            </ul>
+
+
+
+        </nav>
+    </header>
+</body>
+</html>
