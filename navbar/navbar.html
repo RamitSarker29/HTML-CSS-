@@ -61,12 +61,16 @@
     .navbar1 .login-button {
         
         background-color: rgb(213, 123, 13);
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         border-radius: 8px;
-        padding: 2px 5px;
+        padding: 2px 10px;
         cursor: pointer;
+
         
         
+    }
+    .navbar1 .login-button:hover {
+        background-color: rgb(199, 69, 69) ;
     }
     
     .navbar2 {
@@ -75,6 +79,7 @@
         padding: 15px;
         margin-top: 20px;
         width: 200px;
+        margin-bottom: 40px;
     }
     .navbar2 ul {
         list-style: none;
@@ -106,6 +111,45 @@
     .navbar2 .login-button:hover {
         background-color: rgb(17, 123, 123);
         
+    }
+    .navbar3 {
+        background-color:rgb(29, 63, 186);
+        padding: 10px;
+        
+    }
+    .navbar3 ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navbar3 li {
+        margin-bottom: 10px;
+    }
+    .navbar3 a {
+        color: rgb(194, 202, 209);
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+    }
+    .navbar3 .dropdown-content {
+        display: none;
+    }
+    .navbar3 .dropdown:hover .dropdown-content {
+        display: block;
+        position: absolute;
+        background-color:rgb(42, 48, 71) ;
+        min-width:120px;
+    }
+    .navbar3 .login-button {
+        padding: 5px 10px;
+        background-color: rgb(168, 212, 222);
+        border-radius: 8px;
+    }
+    .navbar3 .login-button:hover {
+        background-color:  rgb(31, 165, 195) ;
     }
 </style>
 <body>
@@ -140,6 +184,22 @@
 
 
 
+        </nav>
+        <h1>Horizontal With Dropdown </h1>
+        <nav class="navbar3">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">About</a>
+                    <div class="dropdown-content">
+                        <a href="#">Our Story</a>
+                        <a href="#">Team</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </li>
+                <li><a href="#">Products</a></li>
+                <li> <button class="login-button">Login</button></li>
+            </ul>
         </nav>
 </body>
 </html>
