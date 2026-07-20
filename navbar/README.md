@@ -1,14 +1,15 @@
-# Navigation Bar
+# Navigation Bar Practice
 
-A simple and responsive navigation bar built using HTML and CSS. This project demonstrates the use of Flexbox for layout and CSS hover effects for interactive navigation links.
+This project is a collection of navigation bar designs built using **HTML5** and **CSS3**. It demonstrates different navigation layouts and hover effects while practicing modern CSS styling techniques.
 
 ## Features
 
-- Responsive navigation layout using Flexbox
-- Navigation links (Home, About, Products)
-- Animated underline effect on hover
-- Styled Login button
-- Clean and minimal design
+- Horizontal navigation bar
+- Animated underline effect on navigation links
+- Vertical sidebar navigation
+- Hover effect on sidebar menu items
+- Styled login buttons
+- Clean and simple layout
 
 ## Technologies Used
 
@@ -18,28 +19,35 @@ A simple and responsive navigation bar built using HTML and CSS. This project de
 - CSS Pseudo-elements (`::after`)
 - CSS Transitions
 
+## Concepts Practiced
+
+- Semantic HTML (`<nav>`, `<ul>`, `<li>`)
+- Flexbox for horizontal navigation
+- Vertical navigation layouts
+- Hover effects
+- Button styling
+- Spacing with margin and padding
+- CSS positioning
+
 ## Project Structure
 
-```
+```text
 Navigation/
-│── index.html
+├── navbar.html
+└── README.md
 ```
-
-## What I Learned
-
-- Creating navigation menus using semantic HTML
-- Using Flexbox to align navigation items
-- Styling links with CSS
-- Creating hover underline animations using `::after`
-- Designing interactive buttons with CSS
 
 ## Future Improvements
 
-- Add a logo to the navigation bar
-- Make the navbar fully responsive using media queries
+- Make both navigation bars fully responsive
 - Add a mobile hamburger menu
 - Highlight the active navigation link
-- Include dropdown menus
+- Add dropdown menus
+- Improve accessibility with keyboard navigation
+
+## Purpose
+
+This project was created as part of my frontend development learning journey to practice building different types of navigation bars using only HTML and CSS.
 
 ## Author
 
