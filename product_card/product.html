@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+</head>
+<style>
+    html,body {
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .container {
+        background: linear-gradient(135deg,rgb(199, 123, 36),rgb(150, 62, 24));
+        min-height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content {
+        background-color: beige;
+        width: 530px;
+        padding: 10px;
+        border-radius: 15px;
+        box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+    }
+    .logo {
+        height: 300px;
+        padding: 10px;
+        width: 500px;
+        margin-left: 5px;
+        border-radius: 20px;
+        
+    }
+    p {
+        color:rgb(88, 88, 84);
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    h1 {
+        margin-left: 15px;
+    }
+    .price {
+        color: brown;
+        
+    }
+    button {
+        width: 94%;
+        padding: 10px;
+        background-color: brown;
+        color: aliceblue;
+        margin-left: 15px;
+        border-radius: 8px;
+        border: none;
+        font-weight: bolder;
+        font-size: large;
+        margin-bottom: 15px;
+        cursor: pointer;
+        box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    h4 {
+        background-color: rgb(210, 130, 130);
+        width: 90px;
+        padding: 2px;
+        text-align: center;
+        border-radius: 20px;
+        color: aliceblue;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .price-select {
+        display: flex;
+    }
+    button:hover {
+        background-color: rgb(124, 19, 19);
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="content">
+            <img src="../image/images.jpg" class="logo" alt="hp">
+            <h1 class="name">Wireless Headphones</h1>
+            <p>Experience premium sound quality with deep bass and long-lasting battery</p>
+            <div class="price-select">
+            <h1 class="price">$300</h1>
+            <h4>20% OFF</h4></div>
+            <button type="submit" class="button">Buy Now</button>
+        </div>
+    </div>
+</body>
+</html>
