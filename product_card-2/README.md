@@ -58,4 +58,4 @@ product_card/
 
 ## 👨‍💻 Author
 
-Ramit Sarker
+**Ramit Sarker**
