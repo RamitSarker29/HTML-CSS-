@@ -58,4 +58,4 @@ product_card/
 
 ## 👨‍💻 Author
 
-Created by **[Your Name]** as part of my HTML & CSS learning journey.
+Ramit Sarker
