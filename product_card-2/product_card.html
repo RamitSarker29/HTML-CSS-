@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+</head>
+<style>
+    html,body {
+        padding: 0px;
+        margin: 0px;
+        height: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .container {
+        background: linear-gradient(220deg,black,rgb(155, 153, 153));
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
+    }
+    .content {
+        width: 380px;
+        padding: 20px;
+        margin: 0px 100px;
+        border: 2px solid white;
+        border-radius: 15px;
+        background-color: beige;
+    }
+    .pic {
+        width: 300px;
+        border-radius: 15px;
+        margin-left: 39px;
+        border: 2px solid black;
+        margin-top: 20px;
+
+    }
+    
+    h1{
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    h2 {
+        margin-top: 0px;
+    }
+    .buy,.cart {
+        padding: 10px;
+        width: 48%;
+        background-color: blanchedalmond;
+        border-radius: 15px;
+        font-weight: bold;
+        cur
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+ .buy {
+  transition: 
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    opacity 0.3s ease,
+    filter 0.3s ease;
+}
+
+@media (hover: hover) {
+  .buy:hover, .buy:focus-visible {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    opacity: 0.9;
+    filter: brightness(0.7);
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .buy:hover, .buy:focus-visible {
+      transform: scale(0.9);
+    }
+  }
+}
+.cart {
+  transition: 
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    opacity 0.3s ease,
+    filter 0.3s ease;
+}
+
+@media (hover: hover) {
+  .cart:hover, .cart:focus-visible {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    opacity: 0.9;
+    filter: brightness(0.7);
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .cart:hover, .cart:focus-visible {
+      transform: scale(0.9);
+    }
+  }
+}
+ 
+</style>
+<body>
+    <div class="container">
+        <div class="content">
+            <img src="https://converse.static.n7.io/media/catalog/product/m/9/m9160c_a_107x1-web.jpg" class="pic" alt="">
+            <h1>CONVERSE CHUCK TAYLOR ALL STAR</h1>
+            <h2>$699.99</h2>
+            <button class="buy">BUY NOW</button>
+            <button class="cart">ADD TO CART</button>
+        </div>
+    </div>
+</body>
+</html>
