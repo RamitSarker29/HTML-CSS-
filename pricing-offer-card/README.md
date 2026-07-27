@@ -60,7 +60,3 @@ This project helped me strengthen my understanding of Tailwind CSS by practicing
 ## 👨‍💻 Author
 
 **Ramit Sarker**
-
-Electronics & Instrumentation Engineering Student
-
-Part of my **HTML, CSS & Tailwind CSS** learning journey.
